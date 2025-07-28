@@ -22,6 +22,7 @@ const LandingScreen: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
+        <Text style={{ fontSize: 20, color: '#222', marginBottom: 10 }}>Hello World</Text>
         <Text style={styles.title}>Personica</Text>
         <Text style={styles.subtitle}>Your AI Friend</Text>
       </View>
