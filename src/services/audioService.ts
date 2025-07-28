@@ -3,9 +3,7 @@ import * as Speech from 'expo-speech';
 import * as FileSystem from 'expo-file-system';
 import axios from 'axios';
 
-// AssemblyAI API Configuration
-const ASSEMBLYAI_API_KEY = '71d757a4db724a28822519319e3ea705';
-const ASSEMBLYAI_API_URL = 'https://api.assemblyai.com/v2';
+
 
 interface AudioSettings {
   voice?: string;
